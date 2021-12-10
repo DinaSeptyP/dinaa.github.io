@@ -400,7 +400,7 @@ img.kanan {
     border-radius: 10%;
 }
 .isi {
-    margin: 0 10px 10px 20px;
+    margin: 0 0 10px 0;
     font-family: Proxima Nova;
     padding: auto;
 }
@@ -416,8 +416,8 @@ p {
 }
 h3 {
     text-align: center;
-    margin: 10% 0px 5% 10%;
-    font-size: large;
+    margin: 10% 0px 5% 8%;
+    font-size: 20px;
     font-family: Proxima Nova;
 }
 h4, h5, h6 {
@@ -440,7 +440,7 @@ h4, h5, h6 {
     background-color: #c9aa7f;
     color: white;
     padding: 10px 1px;
-    margin: 15px 0 0 1px;
+    margin: 15px 0 0 0;
     border: none;
     cursor: pointer;
     width: 15%;
@@ -467,30 +467,30 @@ h4, h5, h6 {
         size: cover; 
         width: 100%;
         align-content: center;
-        margin: 10px 0 10px 5%;
+        margin: 10px 0 10px 0;
     }
     .gbrdanDesk {
         text-align: center;
-        margin: 3% 25px 0 -20px;
+        margin: 3% 15px 0 -20px;
         font-size: large;
         font-family: "Work sans", Helvetica, Arial, sans-serif;
     }
     .back {
         font-size: 10px;
-        margin-left: -3%;
+        margin-left: -3.2%;
         padding: 10px 20px;
         font-family: Maven Pro;
         color: #E7E5D9;
     }
     .back a {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 .kumpulangbr {
-    margin-left: 1%;
+    margin-left: 4%;
 }
 .kolomgbr {
     float: left;
@@ -500,11 +500,11 @@ h4, h5, h6 {
 }
 @media screen and (max-width: 680px) {
     .kolomgbr {
-        width: 100%;
+        width: 96.5%;
         display: block;
     }
     .kumpulangbr {
-        margin-left: -4%;
+        margin-left: 0;
     }
 }
 .card {
