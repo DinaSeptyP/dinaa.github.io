@@ -450,7 +450,7 @@ h4, h5, h6 {
 .back a {
     color: #E7E5D9;
     font-family: Maven Pro;
-    font-size: 15px;
+    font-size: 20px;
 }
 .back:hover {
   background-color: #3d5a80;
@@ -476,10 +476,13 @@ h4, h5, h6 {
         font-family: "Work sans", Helvetica, Arial, sans-serif;
     }
     .back {
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px 20px;
         font-family: Maven Pro;
         color: #E7E5D9;
+    }
+    .back a {
+        font-size: 15px;
     }
 }
 *, *:before, *:after {
