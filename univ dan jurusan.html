@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web IMK</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <link href="isi.js" type="program/js" rel="kerjasheet" />
+    </head>
+    <body> 
+        <header class="header">
+            <div class="iniHeader">
+                <h1 class="logo"><a href="#">Gatau</a></h1>  
+                <nav class="navigation">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Setting</a>
+                    <a href="#">About</a>
+                    <a button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
+                </nav>
+            </div>
+        </header>
+        <section class="tlsndiGbr">
+            <h1 class="tlsndiGbr-txt"
+                <span> Get Started</span>
+                <p><span> now </span></p>
+                <p><span><a href="halamanform.html" class="button">Click here</a></span></p>      
+        </section>
+        <h2 id="body1"> Isi Form</h2>
+        <p>Kami bantu rasionalisasi SNMPTN</p>
+        <h2>Modal Login Form</h2>
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+            <form class="modal-content animate" method="post">
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Belum punya akun? <a button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</button></a></span> 
+                </div>
+            </form>
+        </div>
+
+        <h3>Modal Signup Form</h3>
+
+        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+
+        <div id="id02" class="modal2">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+            <form class="modal-content2">
+                <div class="container2">
+                <h1 id="register">Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>Already have an account? <a button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>.</p>
+
+                <div class="clearfix2">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+                    <button type="submit" class="signupbtn2">Sign Up</button>
+                </div>
+                </div>
+            </form>
+        </div>
+
+
+        <footer id="footer" style="background-color: transparent">
+            <div class="footer_copyright">
+                <span
+                    class="footer_copy_text">© 2021 Dina Resifa<a href=""></a>
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>
