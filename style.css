@@ -434,7 +434,7 @@ h4, h5, h6 {
 }
 .back {
     display:inline-block;
-    position:absolute;
+    position:relative;
     top: auto;
     left: 40%;
     background-color: #c9aa7f;
@@ -477,6 +477,7 @@ h4, h5, h6 {
     }
     .back {
         font-size: 10px;
+        margin-left: -3%;
         padding: 10px 20px;
         font-family: Maven Pro;
         color: #E7E5D9;
