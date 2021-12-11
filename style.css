@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Maven Pro;
 }
 body {
     font-family: Maven Pro;
@@ -48,7 +49,7 @@ html {
     line-height: 40px;
     float: right;
     position: relative;
-    margin: 2px 15px 0 50px;
+    margin: 0 15px 0 50px;
 }
 .navigation a {
     display: inline-block;
@@ -108,7 +109,7 @@ html {
     color : blanchedalmond;
     background-color: #283B72;
 }
-@media all and (max-width:600px) {
+@media all and (max-width:680px) {
     .header {
         position: relative;
         background-image : linear-gradient(to right, rgba(110, 122, 134, 0.171), rgba(96, 106, 150, 0.356), #283b729a), url(perpus.jpg);
@@ -118,31 +119,30 @@ html {
         text-align: center;
     }
     .logo a {
-        font-size: 40px;
+        font-size: 35px;
         color: #c5b092;
         line-height: 1;
-        margin: 2px 0 0 1px;
+        margin: 2px 0 0 0;
     }
     .navigation {
         text-align: center;
         display: inline-block;
-        margin: 2px 0 0 5px;
+        margin: 2px 0 0 2px;
     }
     .navigation a {
-        font-size: 13px;
-        padding-left: 10px;
+        font-size: 14px;
+        padding-left: 8px;
     }
     .tlsndiGbr {
         display: inline-block; 
     }
     .tlsndiGbr-txt {
         font-size: 60px;
-        color: rgb(40, 59, 114);
+        color: #c9aa7f;
         padding: 50px 20px;
     }
     .button {
         font-size: 15px;
-        margin-left: 30px;
         padding: 10px 20px;
     }
 }
@@ -416,7 +416,7 @@ p {
 }
 h3 {
     text-align: center;
-    margin: 10% 0px 5% 8%;
+    margin: 10% 0px 5% 7%;
     font-size: 20px;
     font-family: Proxima Nova;
 }
@@ -476,14 +476,13 @@ h4, h5, h6 {
         font-family: "Work sans", Helvetica, Arial, sans-serif;
     }
     .back {
-        font-size: 10px;
-        margin-left: -3.2%;
         padding: 10px 20px;
         font-family: Maven Pro;
         color: #E7E5D9;
+        width: 10%;
     }
     .back a {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 *, *:before, *:after {
@@ -531,7 +530,7 @@ h4, h5, h6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20%;
+    border-radius: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -571,12 +570,13 @@ label {
     padding: 20px;
     width: 95%;
     float:right;
-    margin-left: 2%;
+    margin-left: 0;
 }
 .desForm {
     float: left;
     width: 25%;
     margin-top: 6px;
+    font-weight: bold;
 }
 .isiForm {
     float: left;
@@ -588,11 +588,29 @@ label {
     width: 73%;
     margin-top: 6px;
 }
+.file {
+    margin-top: 10px;
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+.h7 {
+    font-weight: bold;
+    font-family: Proxima Nova;
+    font-size: 25px;
+    align-items: center;
+}
+.footerr {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d2d5a;
+    color: #c9aa7f;
+    text-align: center;
 }
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
