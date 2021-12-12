@@ -35,11 +35,10 @@ html {
     font-weight: bold;
     line-height: 30px;
     padding-left: 10px;
-    font-family:Montserrat;
+    font-family: Montserrat;
     color: #c9aa7f;
     text-decoration: none;
     margin-top: 5px;
-    font-size: 50px;
 }
 .logo a:hover {
     color: #1d2d5a;
@@ -155,10 +154,8 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     font-family: Maven Pro;
-  }
-  
-  /* Set a style for all buttons */
-  button {
+}
+button {
     background-color: #E7E5D9;
     color: white;
     padding: 14px 20px;
@@ -166,105 +163,88 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     width: 100%;
-  }
-  
-  button:hover {
+}
+button:hover {
     opacity: 0.8;
-  }
-  
-  /* Extra styles for the cancel button */
-  .cancelbtn {
+}
+.cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
-  }
-  
-  /* Center the image and position the close button */
-  .imgcontainer {
+}
+
+.imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
     position: relative;
-  }
-  
-  .container {
+}
+.container {
     padding: 16px;
     color: #1d2d5a;
-  }
-  
-  span.psw {
+}
+span.psw {
     float: right;
     padding-top: 16px;
-  }
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 2; /* Sit on top */
+}
+/* Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
     padding-top: 60px;
-  }
+}
   
-  /* Modal Content/Box */
-  .modal-content {
+/* Modal Content/Box */
+.modal-content {
     background-color: #E7E5D9;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    margin: 5% auto 15% auto;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button (x) */
-  .close {
+    width: 80%; 
+}
+.close {
     position: absolute;
     right: 25px;
     top: 0;
     color: #000;
     font-size: 35px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+} 
+.close:hover,
+.close:focus {
     color: red;
     cursor: pointer;
-  }
-  
-  /* Add Zoom Animation */
-  .animate {
+}
+.animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
-  }
-  
-  @-webkit-keyframes animatezoom {
+} 
+@-webkit-keyframes animatezoom {
     from {-webkit-transform: scale(0)} 
     to {-webkit-transform: scale(1)}
-  }
-    
-  @keyframes animatezoom {
+}   
+@keyframes animatezoom {
     from {transform: scale(0)} 
     to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+      display: block;
+      float: none;
   }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  } 
-  
+  .cancelbtn {
+      width: 100%;
+  }
+} 
 
 /*Buat sign up */
-/* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -272,15 +252,8 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 10px;
 }
-
-/* Add a background color when the inputs get focus
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-} */
-
-/* Set a style for all buttons */
 button {
   background-color: #3d5a80;
   color: white;
@@ -294,55 +267,44 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
-/* Extra styles for the cancel button */
 .cancelbtn2 {
     width: auto;
     padding: 14px 0px;
     background-color: #f44336;
 }
-
-/* Float cancel and signup buttons and add an equal width */
 .cancelbtn2, .signupbtn2 {
   float: left;
   width: 50%;
 }
-
-/* Add padding to container elements */
 .container2 {
-  padding: 25px 10px 80px 10px;
+  padding: 15px 15px 80px 15px;
 }
-
-/* The Modal (background) */
+/* Modal background */
 .modal2 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
   padding-top: 60px;
 }
 
-/* Modal Content/Box */
+/* Box Modal Content*/
 .modal-content2 {
   background-color: #E7E5D9;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
-
-/* Style the horizontal ruler */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
- 
-/* The Close Button (x) */
 .close2 {
   position: absolute;
   right: 25px;
@@ -351,14 +313,11 @@ hr {
   font-weight: bold;
   color: #000;
 }
-
 .close2:hover,
 .close2:focus {
   color: #f44336;
   cursor: pointer;
 }
-
-/* Clear floats */
 .cancelbtn2::after {
   content: "";
   clear: both;
@@ -369,7 +328,6 @@ hr {
     clear: both;
     display: table;
   }
-  /* Add Zoom Animation */
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -384,15 +342,13 @@ hr {
     from {transform: scale(0)} 
     to {transform: scale(1)}
   }
-
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn2, .signupbtn2 {
      width: 95%;
   }
 }
 
-/*Body beneran */
+/* Body */
 img.kanan {
     float: right;
     margin: 5px 10px;
@@ -473,7 +429,7 @@ h4, h5, h6 {
         text-align: center;
         margin: 3% 15px 0 -20px;
         font-size: large;
-        font-family: "Work sans", Helvetica, Arial, sans-serif;
+        font-family: Maven Pro;
     }
     .back {
         padding: 10px 20px;
@@ -517,7 +473,7 @@ h4, h5, h6 {
 .deskAtas {
     padding: 0 16px;
     text-align: center;
-    font-family: "Work sans", Helvetica, Arial, sans-serif;
+    font-family: Maven Pro;
 }
 .deskAtas::after, .kumpulangbr::after {
     content: "";
@@ -601,7 +557,6 @@ label {
 .file {
     margin-top: 10px;
 }
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -622,7 +577,6 @@ label {
     color: #c9aa7f;
     text-align: center;
 }
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .desForm, .isiForm, input[type=submit] {
       width: 100%;
