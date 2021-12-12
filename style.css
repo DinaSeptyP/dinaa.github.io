@@ -541,6 +541,14 @@ input[type=text], select, textarea {
     border-radius: 10px;
     resize: vertical;
 }
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    resize: vertical;
+    box-sizing: border-box;
+}
 label {
     padding: 12px 0px 12px 0px;
     display: inline-block;
@@ -585,8 +593,10 @@ label {
 }
 .isiForm2 {
     float: left;
-    width: 73%;
+    width: 75%;
     margin-top: 6px;
+    box-sizing:content-box;
+    align-content: center;
 }
 .file {
     margin-top: 10px;
@@ -623,7 +633,8 @@ label {
         margin-left: 2%;
     }
     .isiForm2 {
-        width: 95%;
+        width: 100%;
+        margin-left: 2%;
     }
     .submit {
         width: 20%;

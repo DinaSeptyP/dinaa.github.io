@@ -17,3 +17,12 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+function myFunction() {
+  const inpObj = document.getElementById("id3");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("demo").innerHTML = inpObj.validationMessage;
+  } else {
+    document.getElementById("demo").innerHTML = "Input OK";
+  } 
+} 
+document.getElementById('id4').style.visibility='visible';
